@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=Mukta:wght@500&family=PT+Sans&family=Poppins&family=Roboto&family=Rubik:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+    
+}
+body{
+    background-color: #1a1a1a;
+    height: 2000px;
+}
+.nav-item a{
+    color: white !important;
+}
+
+.slider-img{
+    width: 100%;
+    height: 75vh;
+}
+.paragraph-about{
+    line-height: 1.8rem;
+    color: black;
+    font-size: 1.1rem;
+}
+.content-about{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    /* align-items: center !important; */
+}
+.button-about{
+
+    border: 1px solid black;
+    border-radius: 0%;
+    padding: 0.7rem 0.9rem;
+    color: black;
+    font-size: 1.2rem;
+
+}
+.prmt{
+    border: 1px solid green;
+}
+.icon-service{
+    font-size: 5rem;
+    padding: 2rem;
+    
+}
+.content-serivce{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.column-service{
+    border-right: 5px solid #1a1a1a !important;
+    /* padding: 2rem; */
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.column-service:hover{
+    
+    transform: translateY(-7px);
+
+
+}
+
+.heading-ser{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
